@@ -2,7 +2,7 @@ package lamp;
 
 public class TestLampadina {
 	   public static void main(String[] args) {
-	      Lampadina l1 = new Lampadina();
+	      Lampadina l1 = new Lampadina(3);
 	      
 	      
 	      System.out.println(l1.stato()); //spenta

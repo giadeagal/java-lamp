@@ -5,9 +5,9 @@ public class Lampadina{
     private int maxSwitches;
     private int numClicks;
     
-    public Lampadina(){
+    public Lampadina(int max){
         this.currentStatus = "spenta";
-        this.maxSwitches = 3;
+        this.maxSwitches = max;
     }
 
     public String stato() {
